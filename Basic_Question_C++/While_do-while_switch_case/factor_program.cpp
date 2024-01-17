@@ -1,0 +1,21 @@
+// factors a given number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter the number: ";
+    cin>>n;
+
+    int i = 1;
+    while (i<=n)
+    {
+        if(n%i==0){
+            cout<<"Factor of a given number is: "<<i<<endl;
+        }
+        i++;
+    }
+    
+    return 0;
+}
