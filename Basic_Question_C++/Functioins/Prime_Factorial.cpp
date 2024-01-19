@@ -15,7 +15,7 @@ bool Prime(int n)
     return true;
 }
 
-int Fact(int n)
+int Fact(int n=3) // default parameter
 {
     int ans = 1;
 
